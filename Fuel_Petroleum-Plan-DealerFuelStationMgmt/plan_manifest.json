@@ -1,0 +1,115 @@
+{
+  "plan_id": "dealer-fuel-station-management-system",
+  "plan_title": "Dealer & Fuel Station Management System",
+  "plan_ticket": "Fuel_Petroleum#2",
+  "story_ticket": null,
+  "created": "2026-09-14",
+  "owner": "noumanmuzaffar007@gmail.com",
+  "status": "planned",
+  "story_branch": null,
+  "spec_path": "spec.md",
+  "docs_store_base": null,
+  "prompt_count": 10,
+  "prompts": [
+    {
+      "sequence": 1,
+      "file": "01_project_scaffolding.md",
+      "title": "Project scaffolding",
+      "depends_on": [],
+      "status": "planned",
+      "task_flow_folder": null,
+      "branch": null,
+      "pr": null
+    },
+    {
+      "sequence": 2,
+      "file": "02_auth_role_routing.md",
+      "title": "Auth & role-based routing",
+      "depends_on": [1],
+      "status": "planned",
+      "task_flow_folder": null,
+      "branch": null,
+      "pr": null
+    },
+    {
+      "sequence": 3,
+      "file": "03_dealer_management.md",
+      "title": "Dealer management",
+      "depends_on": [2],
+      "status": "planned",
+      "task_flow_folder": null,
+      "branch": null,
+      "pr": null
+    },
+    {
+      "sequence": 4,
+      "file": "04_station_management.md",
+      "title": "Station management",
+      "depends_on": [3],
+      "status": "planned",
+      "task_flow_folder": null,
+      "branch": null,
+      "pr": null
+    },
+    {
+      "sequence": 5,
+      "file": "05_equipment_management.md",
+      "title": "Equipment management",
+      "depends_on": [4],
+      "status": "planned",
+      "task_flow_folder": null,
+      "branch": null,
+      "pr": null
+    },
+    {
+      "sequence": 6,
+      "file": "06_product_catalog.md",
+      "title": "Product catalog",
+      "depends_on": [2],
+      "status": "planned",
+      "task_flow_folder": null,
+      "branch": null,
+      "pr": null
+    },
+    {
+      "sequence": 7,
+      "file": "07_order_management.md",
+      "title": "Order management",
+      "depends_on": [4, 6],
+      "status": "planned",
+      "task_flow_folder": null,
+      "branch": null,
+      "pr": null
+    },
+    {
+      "sequence": 8,
+      "file": "08_complaints.md",
+      "title": "Complaints",
+      "depends_on": [4],
+      "status": "planned",
+      "task_flow_folder": null,
+      "branch": null,
+      "pr": null
+    },
+    {
+      "sequence": 9,
+      "file": "09_sales_shift_closing.md",
+      "title": "Sales & shift-closing entry",
+      "depends_on": [5],
+      "status": "planned",
+      "task_flow_folder": null,
+      "branch": null,
+      "pr": null
+    },
+    {
+      "sequence": 10,
+      "file": "10_reporting_dashboards.md",
+      "title": "Reporting & dashboards",
+      "depends_on": [3, 4, 6, 7, 9],
+      "status": "planned",
+      "task_flow_folder": null,
+      "branch": null,
+      "pr": null
+    }
+  ]
+}
