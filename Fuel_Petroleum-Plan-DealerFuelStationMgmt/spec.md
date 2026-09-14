@@ -1,13 +1,28 @@
 # Dealer & Fuel Station Management System — Spec
 
+**Company:** Ignite Petroleum Limited
 **Planning ticket:** [Fuel_Petroleum#2](https://github.com/Nouman810/Fuel_Petroleum/issues/2)
 **Status:** Draft (Phase 2)
 
 ## Overview
 
-A web-based system for a single petroleum company to manage its dealer network and fuel stations. Two roles share one login page and are routed to role-specific dashboards after authentication: **Admin** (the company) and **Dealer** (a person running one or more stations under the company).
+A web-based system for Ignite Petroleum Limited to manage its dealer network and fuel stations. Two roles share one login page and are routed to role-specific dashboards after authentication: **Admin** (the company) and **Dealer** (a person running one or more stations under the company).
 
 Admins manage the dealer network end-to-end: onboarding dealers, assigning stations, maintaining the product catalog, tracking and resolving complaints, managing fuel/lubricant orders, and monitoring sales performance across the whole network. Dealers manage their day-to-day station operations: equipment, orders, complaints, and daily sales recording.
+
+## Branding
+
+Source logo: `E:/Fuel_Petroleum/ignite.jpeg` (flame-in-gear mark, "Ignite Petroleum Limited" wordmark).
+
+| Token | Hex | Use |
+|---|---|---|
+| `--color-primary` | `#DC3B2A` (flame red) | Primary actions, active nav, Admin accents, links |
+| `--color-accent` | `#F5A623` (flame orange) | Secondary accents, highlights, badges, Dealer accents |
+| `--color-background` | `#FDF9F5` (cream) | App background |
+| `--color-surface` | `#FFFFFF` | Cards, panels, modals |
+| `--color-text` | `#231A15` (dark neutral) | Body text — not from the logo, chosen for contrast against cream |
+
+These become CSS custom properties / a theme config in Task 01 (project scaffolding), so every later task's UI pulls from the same tokens instead of hardcoding colors. The logo is used as the app's primary logo (login page, sidebar/header in both Admin and Dealer shells) and as the favicon source.
 
 ## Why This System?
 
