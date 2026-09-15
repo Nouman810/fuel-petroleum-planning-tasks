@@ -56,10 +56,10 @@
       "file": "05_equipment_management.md",
       "title": "Equipment management",
       "depends_on": [4],
-      "status": "planned",
-      "task_flow_folder": null,
-      "branch": null,
-      "pr": null
+      "status": "in_progress",
+      "task_flow_folder": "Backend/OnGoingTasks/equipment-management",
+      "branch": "feature/fuel_petroleum-XXX-equipment-management",
+      "pr": 8
     },
     {
       "sequence": 6,
