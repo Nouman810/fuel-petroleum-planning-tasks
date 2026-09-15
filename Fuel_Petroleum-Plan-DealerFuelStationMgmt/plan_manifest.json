@@ -46,10 +46,10 @@
       "file": "04_station_management.md",
       "title": "Station management",
       "depends_on": [3],
-      "status": "planned",
-      "task_flow_folder": null,
-      "branch": null,
-      "pr": null
+      "status": "in_review",
+      "task_flow_folder": "Backend/OnGoingTasks/station-management",
+      "branch": "feature/fuel_petroleum-XXX-station-management",
+      "pr": 7
     },
     {
       "sequence": 5,
