@@ -36,10 +36,10 @@
       "file": "03_dealer_management.md",
       "title": "Dealer management",
       "depends_on": [2],
-      "status": "planned",
-      "task_flow_folder": null,
-      "branch": null,
-      "pr": null
+      "status": "in_review",
+      "task_flow_folder": "Backend/OnGoingTasks/dealer-management",
+      "branch": "feature/fuel_petroleum-XXX-dealer-management",
+      "pr": 6
     },
     {
       "sequence": 4,
