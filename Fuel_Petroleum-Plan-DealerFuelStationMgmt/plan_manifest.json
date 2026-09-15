@@ -46,8 +46,8 @@
       "file": "04_station_management.md",
       "title": "Station management",
       "depends_on": [3],
-      "status": "in_review",
-      "task_flow_folder": "Backend/OnGoingTasks/station-management",
+      "status": "completed",
+      "task_flow_folder": "Backend/DoneTasks/station-management",
       "branch": "feature/fuel_petroleum-XXX-station-management",
       "pr": 7
     },
