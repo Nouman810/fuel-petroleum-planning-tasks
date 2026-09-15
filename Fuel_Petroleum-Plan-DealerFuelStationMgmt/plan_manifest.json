@@ -16,19 +16,19 @@
       "file": "01_project_scaffolding.md",
       "title": "Project scaffolding",
       "depends_on": [],
-      "status": "planned",
-      "task_flow_folder": null,
-      "branch": null,
-      "pr": null
+      "status": "in_review",
+      "task_flow_folder": "Backend/OnGoingTasks/project-scaffolding",
+      "branch": "feature/fuel_petroleum-XXX-project-scaffolding",
+      "pr": 4
     },
     {
       "sequence": 2,
       "file": "02_auth_role_routing.md",
       "title": "Auth & role-based routing",
       "depends_on": [1],
-      "status": "planned",
-      "task_flow_folder": null,
-      "branch": null,
+      "status": "in_progress",
+      "task_flow_folder": "Backend/OnGoingTasks/auth-role-routing",
+      "branch": "feature/fuel_petroleum-XXX-auth-role-routing",
       "pr": null
     },
     {
